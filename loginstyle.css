@@ -1,0 +1,65 @@
+html{
+    font-family: 'Times New Roman', Courier, monospace;
+    font-size: 15px;
+    background-image:url(images/background2.jpg);
+}
+#utama{
+    width: 300px;
+    margin: center;
+    margin-left: 1000px;
+    margin-top: 500px;
+}
+#judul{
+    width: 64px;
+    margin: 0 auto;
+    margin-top: 12%;
+    padding: 15px;
+    text-align: center;
+    color:#fff;
+    font-size: 50px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: rgb(44, 35, 19);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#inputan{
+    width: 590px;
+    height: auto;
+    background-color: #ecee95da;
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+}
+input{
+    padding: 10px;
+    border: 0;
+    width: 370px;
+    font-size: 25px;
+}
+.submit{
+    background-color: rgb(148, 120, 26);
+    border-radius: 0px;
+    margin-top: 10px;
+    color: #fff;
+    margin-left: 10px;
+}
+.submit:hover{
+    background-color: rgb(223, 141, 198);
+    color: rgb(115, 33, 122);
+    cursor: pointer;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+p a{
+    background-color: rgb(92, 58, 19);
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+}
+p a:hover{
+    background-color: rgb(243, 108, 232);
+    color: rgb(117, 79, 148);
+    border: 1px solid rgb(92, 58, 19);
+}
